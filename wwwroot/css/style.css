@@ -1,0 +1,330 @@
+﻿body {
+    font-size: 14px;
+    font-family: 'Arial', serif;
+    color: #626262;
+    overflow-y: scroll;
+
+
+}
+
+/*BODY {
+    margin: 0;*/ /* Убираем отступы в браузере */
+/*}*/
+
+
+.thumb {
+    margin-bottom: 30px;
+}
+.green {
+    background-color: #6fb936;
+}
+.page-top {
+    margin-top: 85px;
+}
+
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+/*    -ms-transition: all .3s ease-in-out;
+*/}
+
+.transition {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #000;
+}
+
+.modal-footer {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /*height: 400px;*/
+}
+
+a {
+    color: #b4ad9e;
+}
+
+    a:hover {
+        color: #898377;
+    }
+
+p {
+    line-height: 1.5rem;
+}
+
+h2, h3 {
+    margin: 1rem 0;
+    font-size: 30px;
+}
+
+hedder .navbar-light {
+    background-color: #fff;
+}
+
+header .navbar-brand {
+    font-family: 'Arial', monospace;
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+header .nav-item {
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+    header .nav-item a::after {
+        content: '';
+        display: block;
+        width: 100%;
+        background-color: #ccc;
+        height: 1px;
+        transform: scale(0);
+        transition: all .3s;
+    }
+
+    header .nav-item a:hover::after {
+        transform: scale(1);
+    }
+
+.post-category,
+.link-more {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.post-title a {
+    color: #626262;
+}
+
+.grid-posts {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+    .grid-posts .card {
+        border: 0;
+        margin-bottom: 100px;
+    }
+
+    .grid-posts .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .grid-posts .card-img-top {
+        max-height: 350px;
+        border-top-left-radius: calc(.75rem - 1px);
+        border-top-right-radius: calc(.75rem - 1px);
+    }
+
+.Load-more {
+    padding: 1rem 2rem;
+    border-color: #626262;
+    border-radius: 0;
+}
+
+    .Load-more span {
+        display: none;
+    }
+
+footer {
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    color: #6fb936;
+}
+
+.footer-left a {
+    color: #ffd800;
+    margin-right: 10px;
+}
+
+.footer-right a {
+    color: #626262;
+    margin-left: 10px;
+}
+
+.tab-content {
+    min-height: calc(100vh - 121px);
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+/*    padding: 10px;
+*/}
+
+/* Create two columns that float next to eachother */
+/*.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}*/
+
+/* Clear floats after the columns */
+/*.row:after {
+    content: "";screen and 
+    display: table;
+    clear: both;
+}// Small devices (landscape phones, 576px and up)
+// Medium devices (tablets, 768px and up)
+// Large devices (desktops, 992px and up)
+// Extra large devices (large desktops, 1200px and up)
+*/
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (min-width: 768px) {
+    .min-width-460-md {
+        flex-basis: 10px !important;
+        max-width: 620px !important;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    display: table-row;
+    height: 100%;
+    width: 100%;
+}
+
+/* scrolltable rules !important;    margin-top: 20px;
+*/
+table {
+/*        
+*/ 
+display: inline-block;
+    overflow: auto;
+}
+table, td {
+    width: 100% 
+}
+
+
+/*    table tbody {
+        position: absolute;    margin:-10px;
+
+        align-content: center;
+        width: 100%
+    }*/
+
+thead th {
+    align-content: center;
+    width: 100%
+}
+
+/* design 
+table {    position: absolute;
+
+    border-collapse: collapse;
+}*/
+
+tr:nth-child(even) {
+    background: #ccc;
+}
+tr:nth-child(odd) {
+    background: #fff;
+}
+
+/*
+table-fixed-head {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    height: 100vh;
+}
+
+.table-fixed-head th,
+.table-fixed-head td {
+    padding: 5px;
+    text-align: center;
+    width: 33.333vw;
+}
+
+.table-fixed-head thead {
+    background-color: #333;
+    color: #FDFDFD;
+}
+
+    .table-fixed-head thead tr {
+        display: block;
+        position: relative;
+    }
+
+.table-fixed-head tbody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 30px);
+}
+
+    .table-fixed-head tbody tr:nth-child(even) {
+        background-color: #DDD;
+    }*/
+
