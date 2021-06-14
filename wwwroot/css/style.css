@@ -3,13 +3,99 @@
     font-family: 'Arial', serif;
     color: #626262;
     overflow-y: scroll;
+    overflow-x: scroll;
+}
 
+
+
+/*.progress {*/
+    /* применить анимацию go-left-right */
+    /* продолжительность 3s */
+    /* количество раз: бесконечное (infinite) */
+    /* менять направление анимации каждый раз (alternate) */
+    /*animation: go-left-right 3s infinite alternate;
+    position: relative;
+    border: 2px solid green;
+    width: 50px;
+    height: 20px;
+    background: lime;
+}*/
+
+/* keyframes with no vendor prefix */
+/*@keyframes colors {
+    from {
+        background: red;
+    }
+    to {
+        background: blue;
+    }
+}
+
+.my-colanim {
+    animation-name: colors;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 
 }
 
-/*BODY {
-    margin: 0;*/ /* Убираем отступы в браузере */
-/*}*/
+.shape {
+
+    width: 50px;
+    height: 50px;
+}*/
+
+
+
+* {
+    transition: 0.3s all;
+}
+
+
+
+
+    /** {
+    font-family: monospace;
+}*/
+    /*.square {
+        width: 50px;
+        height: 50px;
+    }
+
+    .square-1 {
+        background-color: #d35400;
+    }
+
+    .square-2 {
+        background-color: #3498db;
+    }
+
+    .animate-1 {
+        animation-name: anim-without-start;
+        animation-duration: 3s;
+    }
+
+    .animate-2 {
+        animation-name: anim-without-end;
+        animation-duration: 3s;
+    }
+
+    button {
+        font-size: 1.1em;
+        margin-top: 20px;
+    }
+
+    @-webkit-keyframes anim-without-start {
+        to {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes anim-without-end {
+    50% {
+        width: 100%;
+    }
+}*/
 
 
 .thumb {
@@ -17,6 +103,7 @@
 }
 .green {
     background-color: #6fb936;
+
 }
 .page-top {
     margin-top: 85px;
@@ -222,12 +309,12 @@ input[type=submit] {
 */
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .min-width-460-md {
         flex-basis: 10px !important;
         max-width: 620px !important;
     }
-}
+}*/
 
 
 
@@ -257,13 +344,17 @@ body {
 /* scrolltable rules !important;    margin-top: 20px;
 */
 table {
-/*        
-*/ 
-display: inline-block;
+    /*        
+*/
+    display: inline-block;
     overflow: auto;
+    table-layout: auto
 }
 table, td {
-    width: 100% 
+    width: 100%;
+    overflow: auto;
+    table-layout: auto
+    
 }
 
 
@@ -276,7 +367,9 @@ table, td {
 
 thead th {
     align-content: center;
-    width: 100%
+    width: 100%;
+    overflow: auto;
+    table-layout: auto
 }
 
 /* design 

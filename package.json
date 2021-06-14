@@ -1,0 +1,25 @@
+{
+  "name": "lab1.5",
+  "version": "5.0.0",
+  "description": "lesslab",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kastantinknu/smtrpz-3-lab2.git"
+  },
+  "keywords": [
+    "less"
+  ],
+  "author": "i",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kastantinknu/smtrpz-3-lab2/issues"
+  },
+  "homepage": "https://github.com/kastantinknu/smtrpz-3-lab2#readme",
+  "dependencies": {
+    "less": "^4.1.1"
+  }
+}

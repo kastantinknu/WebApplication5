@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "wwwroot/less/less.style1.css",
+    "inputFile": "wwwroot/less/less.style1.less"
+  },
+  {
+    "outputFile": "wwwroot/less/less.style2.css",
+    "inputFile": "wwwroot/less/less.style2.less"
+  }
+]

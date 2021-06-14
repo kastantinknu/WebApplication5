@@ -44,3 +44,4 @@ $(dislikes).click(function () {
     $(ressend).text("Отправлено "+$(btnGroupDrop1).text());
 
 });
+
